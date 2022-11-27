@@ -1,7 +1,7 @@
 #brite {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  color: #000;
 }
 
 #brite #tooltipimage {
@@ -11,13 +11,15 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
+  display: inline-block;
+  width: 250px;
   
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -120px;
 }
 
 #brite:hover #tooltipimage {
