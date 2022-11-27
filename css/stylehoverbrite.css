@@ -1,10 +1,10 @@
-.hover {
+.brite {
   position:relative;
   top:50px;
   left:50px;
 }
 
-.tooltip {
+.tooltipbrite {
 top:-180px;
 background-color:white;
 color:white;
@@ -18,6 +18,6 @@ position:absolute;
 transition:  opacity 0.5s;
 }
 
-.hover:hover .tooltip {
+.brite:brite .tooltipbrite {
   opacity:1;
 }
