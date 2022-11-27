@@ -1,10 +1,10 @@
-.brite {
+#brite {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
 
-.brite .tooltipimage {
+#brite #tooltipimage {
   visibility: hidden;
   background-color: white;
   color: #fff;
@@ -20,6 +20,6 @@
   margin-left: -60px;
 }
 
-.brite:hover .tooltipimage {
+#brite:hover #tooltipimage {
   visibility: visible;
 }
