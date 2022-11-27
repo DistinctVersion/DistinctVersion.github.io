@@ -1,18 +1,25 @@
-
-
-.tooltipbrite {
-background-color:white;
-color:white;
-border-radius:5px;
-opacity:0;
-position:absolute;
--webkit-transition: opacity 0.5s;
--moz-transition:  opacity 0.5s;
--ms-transition: opacity 0.5s;
--o-transition:  opacity 0.5s;
-transition:  opacity 0.5s;
+.brite {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
-.brite:hover .tooltipbrite {
-  opacity:1;
+.brite .tooltipimage {
+  visibility: hidden;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.brite:hover .tooltipimage {
+  visibility: visible;
 }
