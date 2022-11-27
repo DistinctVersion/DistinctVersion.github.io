@@ -18,6 +18,6 @@ position:absolute;
 transition:  opacity 0.5s;
 }
 
-.brite:brite .tooltipbrite {
+.brite:hover .tooltipbrite {
   opacity:1;
 }
