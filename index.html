@@ -4,9 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio, Distinct Version, Ken Karl B. Apelacio,Programmer,Web Developer,Web Designer,Frontend Developer,Backend Developer,PHP,CSS,Laravel,Codeigniter,React,JavaScript,Wordpress,Content Management System,Resume,Available to Hire">
+	<meta name="description"
+		content="Portfolio, Distinct Version, Ken Karl B. Apelacio,Programmer,Web Developer,Web Designer,Frontend Developer,Backend Developer,PHP,CSS,Laravel,Codeigniter,React,JavaScript,Wordpress,Content Management System,Resume,Available to Hire">
 	<meta name="author" content="Ken Karl B. Apelacio">
-	<meta name="keywords" content="Ken Karl B. Apelacio,Programmer,Web Developer,Web Designer,Frontend Developer,Backend Developer,PHP,CSS,Laravel,Codeigniter,React,JavaScript,Wordpress,Content Management System,Resume,Available to Hire">
+	<meta name="keywords"
+		content="Ken Karl B. Apelacio,Programmer,Web Developer,Web Designer,Frontend Developer,Backend Developer,PHP,CSS,Laravel,Codeigniter,React,JavaScript,Wordpress,Content Management System,Resume,Available to Hire">
 
 	<title>Ken Karl B. Apelacio</title>
 	<link rel="icon" href="img/1.png" type="image/gif" sizes="18x18">
@@ -126,9 +128,9 @@
 											I have produced Windows-based applications and websites that advanced the
 											day-to-day operations of both public and private enterprises. Developing
 											mobile applications and modifying games thru Unity while keeping abreast
-											with the latest tech are what I do on my free time. My burly dog, <a href="#"
-												id="brite">Brite<span id="tooltipimage"><img
-														src='img/Brite.png'/></span></a>, always liven up my day.
+											with the latest tech are what I do on my free time. My burly dog, <a
+												href="#" id="brite">Brite<span id="tooltipimage"><img
+														src='img/Brite.png' /></span></a>, always liven up my day.
 										</p>
 										<a href="#contact"
 											class="btn btn-clear btn-lg border-color color-primary linear hire">AVAILABLE
@@ -637,7 +639,38 @@
 			</div><!-- end container -->
 		</div>
 		<!--contact-->
+		<!-- for mesengger-->
+		<!-- Messenger Chat Plugin Code -->
+		<div id="fb-root"></div>
 
+		<!-- Your Chat Plugin code -->
+		<div id="fb-customer-chat" class="fb-customerchat">
+		</div>
+
+		<script>
+			var chatbox = document.getElementById('fb-customer-chat');
+			chatbox.setAttribute("page_id", "111947964623646");
+			chatbox.setAttribute("attribution", "biz_inbox");
+		</script>
+
+		<!-- Your SDK code -->
+		<script>
+			window.fbAsyncInit = function () {
+				FB.init({
+					xfbml: true,
+					version: 'v16.0'
+				});
+			};
+
+			(function (d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- for mesengger-->
 		<!-- Footer -->
 		<footer class="bg-black">
 			<div class="container">
